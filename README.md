@@ -4,8 +4,7 @@ Write some code that will accept a $ amount and convert it to the appropriate st
 Example:
 Convert
 $2523.04
-to "Two thousand five hundred twenty-three and 04/100
-dollars"
+to "Two thousand five hundred twenty-three and 04/100 dollars"
 
 # Disclaimer
 Restrictions:
