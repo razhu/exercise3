@@ -27,4 +27,4 @@ npm i
 npm test
 ```
 # Output
-![Output](output.png)
+![Output](output2.png)
