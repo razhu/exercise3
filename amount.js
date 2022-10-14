@@ -22,11 +22,10 @@ const mainAmountToWords = (number) => {
   }
   return words;
 }
-
 const determineAmount = (fullAmount) => { // fullAmount = $2523.04
-    let [mainAmount, cents] = fullAmount.split('.'); // separating main amount from cents
-    mainAmount = mainAmount.substring(1); // removing $
-    return `${mainAmountToWords(parseInt(mainAmount))} and ${cents}/100 dollars`
+  let [mainAmount, cents] = fullAmount.split('.'); // separating main amount from cents
+  mainAmount = mainAmount.substring(1); // removing $
+  return `${mainAmountToWords(parseInt(mainAmount))} and ${cents}/100 dollars`
 }
 
 module.exports = determineAmount;
